@@ -36,7 +36,7 @@ birthMonthMain () {
                 (( count++ ))
         done
 
-        printBirthMonth
+        printbirthMonth
 }
 
 birthMonthMain
