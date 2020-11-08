@@ -1,0 +1,16 @@
+#!/bin/bash -x
+
+NUMBER_1[0]="100"
+NUMBER_2[1]="200"
+NUMBER_3[2]="300"
+NUMBER_4[3]="400"
+NUMBER_5[4]="500"
+NUMBER_6[5]="600"
+NUMBER_7[6]="700"
+NUMBER_8[7]="800"
+NUMBER_9[8]="900"
+NUMBER_10[9]="1000"
+
+SUM=$(( ${NUMBER_1[0]} + ${NUMBER_2[1]} + ${NUMBER_3[2]} + ${NUMBER_4[3]} + ${NUMBER_5[4]} + ${NUMBER_6[5]} + ${NUMBER_7[6]} + ${NUMBER_8[7]} + ${NUMBER_9[8]} + ${NUMBER_10[9]} ))
+echo "$SUM"
+
