@@ -1,5 +1,0 @@
-#!/bin/bash -x
-
-RANDOM_SINGLE_DIGIT=$(( $RANDOM%9 +1 ))
-
-echo "SINGLE DIGIT NUMBER IS:" $RANDOM_SINGLE_DIGIT
