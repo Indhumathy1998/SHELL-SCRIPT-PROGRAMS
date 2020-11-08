@@ -1,6 +1,6 @@
 #!/bin/bash -x
 read -p "enter number:" Num
-echo "prime factors of $N are:" 
+echo "prime factors of $Num are:" 
 for (( i=2; i*i<=Num; i++ ))
 do
         c=0
